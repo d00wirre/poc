@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bonfire — Product Overview</title>
+  <style>
+    body {
+      font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #222;
+      margin: 20px;
+      line-height: 1.5;
+      background: #f9fafb;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: .2em;
+      color: #111;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+    }
+    th {
+      background: #f1f5f9;
+      font-weight: 600;
+      font-size: 13px;
+      color: #374151;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    td {
+      border-bottom: 1px solid #f1f5f9;
+    }
+    tbody tr:nth-child(even) {
+      background: #f9fafb;
+    }
+    .mono {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px;
+      color: #374151;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .tight p { margin: 0.2rem 0; }
+    .variant-block {
+      font-size: 13px;
+      color: #111;
+      line-height: 1.4;
+    }
+    .muted {
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:30%;">App &amp; Attributes</th>
+        <th style="width:25%;">Variant</th>
+        <th style="width:8%;">Env</th>
+        <th style="width:14%;">GUID</th>
+        <th>URL</th>
+      </tr>
+    </thead>
+    <tbody>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">crm</span></p>
+                <p><strong>Internal:</strong> bonfire-crm</p>                  <p><strong>Description:</strong> Customer Relationship Management platform to manage leads, sales, and customer interactions.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">crm-se</span></div>
+                <div>Kundhantering</div>
+                <div>1200 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">6f2a0a01-72ba-4710-85ad-58bdb13a5279</td>
+            <td><a href="https://dev.crm.se.bonfirecloud.example">https://dev.crm.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">5b3e1b23-4c12-4c98-b6f3-8a2712d50c11</td>
+            <td><a href="https://crm.se.bonfirecloud.example">https://crm.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">crm-no</span></div>
+                <div>KundeHåndtering</div>
+                <div>1300 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">0b8f7d88-d38a-4a69-a902-b178b61bfa44</td>
+            <td><a href="https://dev.crm.no.bonfirecloud.example">https://dev.crm.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">de2e60d1-9af7-4d94-bfb7-30c9a3dd8711</td>
+            <td><a href="https://crm.no.bonfirecloud.example">https://crm.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">crm-dk</span></div>
+                <div>KundeStyring</div>
+                <div>1250 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">8c7d8a34-1a4e-4e39-932f-d97c9b2f7e55</td>
+            <td><a href="https://dev.crm.dk.bonfirecloud.example">https://dev.crm.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">67f9a8a9-9050-4ee4-8b1a-73d257aeeaa2</td>
+            <td><a href="https://crm.dk.bonfirecloud.example">https://crm.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">hrm</span></p>
+                <p><strong>Internal:</strong> bonfire-hrm</p>                  <p><strong>Description:</strong> Human Resource Management system for employee data, payroll, and recruitment.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">hrm-se</span></div>
+                <div>Personal</div>
+                <div>800 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">2e54b237-79b8-4a8c-b81c-7c38fb81f80a</td>
+            <td><a href="https://dev.hrm.se.bonfirecloud.example">https://dev.hrm.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">bbd9e0f5-14a6-42c1-9b6f-016444b6bb91</td>
+            <td><a href="https://hrm.se.bonfirecloud.example">https://hrm.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">hrm-no</span></div>
+                <div>Personell</div>
+                <div>850 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">d3e705f8-1838-4a04-8b23-4d9f7b8e5314</td>
+            <td><a href="https://dev.hrm.no.bonfirecloud.example">https://dev.hrm.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">90df3c88-59ab-4765-90da-76b5c0eea4a1</td>
+            <td><a href="https://hrm.no.bonfirecloud.example">https://hrm.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">hrm-dk</span></div>
+                <div>Personale</div>
+                <div>820 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">6b7f4495-7a9b-46c5-a04e-ef98abcf702d</td>
+            <td><a href="https://dev.hrm.dk.bonfirecloud.example">https://dev.hrm.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">fb7e4718-5c4c-4e3f-92ea-d0d46fd8e887</td>
+            <td><a href="https://hrm.dk.bonfirecloud.example">https://hrm.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">billing</span></p>
+                <p><strong>Internal:</strong> bonfire-billing</p>                  <p><strong>Description:</strong> Automated invoicing and billing system with multi-currency support.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">billing-se</span></div>
+                <div>Faktura</div>
+                <div>600 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">45af40f0-3d44-4d4c-8760-67cbd7cfd918</td>
+            <td><a href="https://dev.billing.se.bonfirecloud.example">https://dev.billing.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">b63c3029-8d31-4b13-8573-46e4b94f27b1</td>
+            <td><a href="https://billing.se.bonfirecloud.example">https://billing.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">billing-no</span></div>
+                <div>Faktura</div>
+                <div>650 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">3b66e13b-3f0a-44a0-8282-29a3f2c36cc8</td>
+            <td><a href="https://dev.billing.no.bonfirecloud.example">https://dev.billing.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">ef784f26-244b-4a56-95d7-c26a210e12f3</td>
+            <td><a href="https://billing.no.bonfirecloud.example">https://billing.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">billing-dk</span></div>
+                <div>Fakturering</div>
+                <div>620 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">62de6272-7f13-48c6-aea0-5e3f5b28917a</td>
+            <td><a href="https://dev.billing.dk.bonfirecloud.example">https://dev.billing.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">6c812ce3-6b13-40db-97a1-ef5c23468a01</td>
+            <td><a href="https://billing.dk.bonfirecloud.example">https://billing.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">support</span></p>
+                <p><strong>Internal:</strong> bonfire-support</p>                  <p><strong>Description:</strong> Customer support and helpdesk solution with ticket management.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">support-se</span></div>
+                <div>Support</div>
+                <div>500 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">88536b71-d2d6-4969-9f95-fc7a324d537a</td>
+            <td><a href="https://dev.support.se.bonfirecloud.example">https://dev.support.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">2837d07d-d5b3-4141-94b1-94cb1d6d0d59</td>
+            <td><a href="https://support.se.bonfirecloud.example">https://support.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">support-no</span></div>
+                <div>Brukerstøtte</div>
+                <div>550 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">a54a2a1b-4fd3-45cb-913f-dc72a64a3ec6</td>
+            <td><a href="https://dev.support.no.bonfirecloud.example">https://dev.support.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">d34de558-2e93-41d2-8cf0-01bc7c1e9a1f</td>
+            <td><a href="https://support.no.bonfirecloud.example">https://support.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">support-dk</span></div>
+                <div>Kundesupport</div>
+                <div>520 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">2b3cdac2-b3c5-46b0-8267-92b071c3a817</td>
+            <td><a href="https://dev.support.dk.bonfirecloud.example">https://dev.support.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">87bb01d4-8e0e-47e4-8229-7ed7a49b9b3c</td>
+            <td><a href="https://support.dk.bonfirecloud.example">https://support.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">analytics</span></p>
+                <p><strong>Internal:</strong> bonfire-analytics</p>                  <p><strong>Description:</strong> Business analytics and reporting platform with dashboards.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">analytics-se</span></div>
+                <div>Analys</div>
+                <div>1000 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">44a50a07-522a-4c49-a307-2d92f5a9d2a4</td>
+            <td><a href="https://dev.analytics.se.bonfirecloud.example">https://dev.analytics.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">06e3858b-7f5c-4a56-b8a5-2238e9dc503b</td>
+            <td><a href="https://analytics.se.bonfirecloud.example">https://analytics.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">analytics-no</span></div>
+                <div>Analyse</div>
+                <div>1050 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">139f7685-f57d-48a1-87fc-2bfc35b0ed9d</td>
+            <td><a href="https://dev.analytics.no.bonfirecloud.example">https://dev.analytics.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">0ec94f29-0c78-4a76-8bb7-5caa70db1f61</td>
+            <td><a href="https://analytics.no.bonfirecloud.example">https://analytics.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">analytics-dk</span></div>
+                <div>Analyse</div>
+                <div>1020 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">e79f0d6d-dcf9-4fdb-9b86-7e279650c3cf</td>
+            <td><a href="https://dev.analytics.dk.bonfirecloud.example">https://dev.analytics.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">3ac41bda-4c5c-4bbd-b63e-f7d83b92cb04</td>
+            <td><a href="https://analytics.dk.bonfirecloud.example">https://analytics.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">cms</span></p>
+                <p><strong>Internal:</strong> bonfire-cms</p>                  <p><strong>Description:</strong> Content management system for websites and digital experiences.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">cms-se</span></div>
+                <div>Webbplats</div>
+                <div>700 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">5c17fd28-4f3f-45a2-8267-1f0cdd78e037</td>
+            <td><a href="https://dev.cms.se.bonfirecloud.example">https://dev.cms.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">ea02f004-60e4-49ec-93a0-801b6c45f6f1</td>
+            <td><a href="https://cms.se.bonfirecloud.example">https://cms.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">cms-no</span></div>
+                <div>Nettsted</div>
+                <div>750 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">6b2dcb70-1848-46a4-a2f3-0b49a51c88fd</td>
+            <td><a href="https://dev.cms.no.bonfirecloud.example">https://dev.cms.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">87e34b2b-0570-47c5-b3bb-232f4210e1fc</td>
+            <td><a href="https://cms.no.bonfirecloud.example">https://cms.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">cms-dk</span></div>
+                <div>Hjemmeside</div>
+                <div>730 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">bc0bda0d-f4c1-49f5-b832-3f82c4d6b2b1</td>
+            <td><a href="https://dev.cms.dk.bonfirecloud.example">https://dev.cms.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">f9b73b15-34b7-4f4d-91cb-71d31845d281</td>
+            <td><a href="https://cms.dk.bonfirecloud.example">https://cms.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">marketing</span></p>
+                <p><strong>Internal:</strong> bonfire-marketing</p>                  <p><strong>Description:</strong> Marketing automation tool for campaigns, emails, and customer journeys.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">marketing-se</span></div>
+                <div>Marknadsföring</div>
+                <div>900 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">0f59c3b4-3de2-4f8a-9f14-25f0a99a0e44</td>
+            <td><a href="https://dev.marketing.se.bonfirecloud.example">https://dev.marketing.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">8b0e91d2-7656-4bc3-b5bb-4b1b7f2c902a</td>
+            <td><a href="https://marketing.se.bonfirecloud.example">https://marketing.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">marketing-no</span></div>
+                <div>Markedsføring</div>
+                <div>950 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">cddbc8f8-cc6a-4a4a-b7f3-63c2cfd667b7</td>
+            <td><a href="https://dev.marketing.no.bonfirecloud.example">https://dev.marketing.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">b81e5b09-44ec-49f0-8467-018e44e4b093</td>
+            <td><a href="https://marketing.no.bonfirecloud.example">https://marketing.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">marketing-dk</span></div>
+                <div>Markedsføring</div>
+                <div>920 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">d6f932b4-04ef-4e50-87b1-4284db4db61a</td>
+            <td><a href="https://dev.marketing.dk.bonfirecloud.example">https://dev.marketing.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">fa41a4dd-d181-409c-a21c-f3a08af2ef5e</td>
+            <td><a href="https://marketing.dk.bonfirecloud.example">https://marketing.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">storage</span></p>
+                <p><strong>Internal:</strong> bonfire-storage</p>                  <p><strong>Description:</strong> Secure cloud storage for files and documents.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">storage-se</span></div>
+                <div>Lagring</div>
+                <div>400 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">0f3b9a8a-574f-48ab-97e2-b34a1b4dbe12</td>
+            <td><a href="https://dev.storage.se.bonfirecloud.example">https://dev.storage.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">58d9fb29-36f4-45a7-94f7-91c5c28f8e08</td>
+            <td><a href="https://storage.se.bonfirecloud.example">https://storage.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">storage-no</span></div>
+                <div>Lagring</div>
+                <div>420 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">67c2ff53-ccf0-4b6d-95c6-7f7b29a0a18a</td>
+            <td><a href="https://dev.storage.no.bonfirecloud.example">https://dev.storage.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">49d5a9db-21a3-4e6b-b71d-bc98ea8f54c4</td>
+            <td><a href="https://storage.no.bonfirecloud.example">https://storage.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">storage-dk</span></div>
+                <div>Lager</div>
+                <div>410 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">2a2df7f2-61e7-4651-9b0c-2f15a9a6a993</td>
+            <td><a href="https://dev.storage.dk.bonfirecloud.example">https://dev.storage.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">a68d0e88-2c91-4b15-9c35-232948c21ec9</td>
+            <td><a href="https://storage.dk.bonfirecloud.example">https://storage.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">security</span></p>
+                <p><strong>Internal:</strong> bonfire-security</p>                  <p><strong>Description:</strong> Security platform for identity, access, and compliance.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">security-se</span></div>
+                <div>Säkerhet</div>
+                <div>1100 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">b42f31df-13c1-4c6b-83a9-6c6f1d24f4e8</td>
+            <td><a href="https://dev.security.se.bonfirecloud.example">https://dev.security.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">4f63cf54-5f1a-49a7-9f21-98e1c1b2a215</td>
+            <td><a href="https://security.se.bonfirecloud.example">https://security.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">security-no</span></div>
+                <div>Sikkerhet</div>
+                <div>1150 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">29a2d8f4-3b1b-4cb3-8f23-d0c3c8901df7</td>
+            <td><a href="https://dev.security.no.bonfirecloud.example">https://dev.security.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">73139d4b-282f-43af-9c3f-9bc587efdb6d</td>
+            <td><a href="https://security.no.bonfirecloud.example">https://security.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">security-dk</span></div>
+                <div>Sikkerhed</div>
+                <div>1120 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">fd5d342e-0b0b-4b3e-901e-d7e55791df91</td>
+            <td><a href="https://dev.security.dk.bonfirecloud.example">https://dev.security.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">0f7d6a94-dc39-49ab-a3da-77b83d96e6e5</td>
+            <td><a href="https://security.dk.bonfirecloud.example">https://security.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="6" class="tight">
+                <p><strong>App ID:</strong> <span class="mono">ai</span></p>
+                <p><strong>Internal:</strong> bonfire-ai</p>                  <p><strong>Description:</strong> Artificial Intelligence services for automation and predictions.</p>              </td>              <td rowspan="2" class="variant-block">
+                <div><strong>SE</strong> • <span class="mono">ai-se</span></div>
+                <div>AI-tjänst</div>
+                <div>1500 SEK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">f42038d2-8321-490a-8db3-7af0878a1a8c</td>
+            <td><a href="https://dev.ai.se.bonfirecloud.example">https://dev.ai.se.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">1c2e7a4a-0a42-421f-a129-8eaec92344b6</td>
+            <td><a href="https://ai.se.bonfirecloud.example">https://ai.se.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>NO</strong> • <span class="mono">ai-no</span></div>
+                <div>AI-tjeneste</div>
+                <div>1600 NOK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">6aeaa4b4-d75f-46e6-b17e-82380cc5103a</td>
+            <td><a href="https://dev.ai.no.bonfirecloud.example">https://dev.ai.no.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">3b452a7f-117f-429b-8904-8d9790ecf178</td>
+            <td><a href="https://ai.no.bonfirecloud.example">https://ai.no.bonfirecloud.example</a></td>
+          </tr>          <tr>              <td rowspan="2" class="variant-block">
+                <div><strong>DK</strong> • <span class="mono">ai-dk</span></div>
+                <div>AI-tjeneste</div>
+                <div>1550 DKK</div>
+              </td>
+            <td class="mono">dev</td>
+            <td class="mono">b27a6f0c-f47c-44ff-8756-5cb6c57d14c2</td>
+            <td><a href="https://dev.ai.dk.bonfirecloud.example">https://dev.ai.dk.bonfirecloud.example</a></td>
+          </tr>          <tr>
+            <td class="mono">prod</td>
+            <td class="mono">9f8e1db4-6d65-4a33-a12a-07a5a3c77919</td>
+            <td><a href="https://ai.dk.bonfirecloud.example">https://ai.dk.bonfirecloud.example</a></td>
+          </tr>    </tbody>
+  </table>
+
+  <p class="muted" style="margin-top:16px;">
+    Generated 2025-09-26T20:08:13+00:00 • commit 0da4a45 by d00wirre
+  </p>
+</body>
+</html>
