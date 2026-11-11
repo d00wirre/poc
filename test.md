@@ -1,29 +1,17 @@
 ```mermaid
-flowchart LR
-    CapegoWeb["CapegoWeb"]
-
-    subgraph BillingService["Billing Service"]
-        direction TB
-        BillingServiceApp["Billing Service"]
-        MappingConfig@{ shape: doc, label: "Mapping configuration<br/>(JSON / YAML)" }
-        BillingServiceApp ~~~ MappingConfig
+flowchart TB
+    subgraph Classic["Classic shapes"]
+        direction LR
+        A1["Rectangle"] ~~~ A2("Rounded") ~~~ A3(["Stadium"]) ~~~ A4[["Subroutine"]]
+        B1[("Cylinder")] ~~~ B2(("Circle")) ~~~ B3>"Asymmetric"] ~~~ B4{"Rhombus"}
+        C1{{"Hexagon"}} ~~~ C2[/"Parallelogram"/] ~~~ C3[\"Parallelogram alt"\] ~~~ C4[/"Trapezoid"\]
     end
 
-    Panda["Panda"]
-    AAA["AAA"]
+    subgraph Newer["Newer shapes (Mermaid v11+)"]
+        direction LR
+        D1@{ shape: doc, label: "Document" } ~~~ D2@{ shape: docs, label: "Documents" } ~~~ D3@{ shape: tag-doc, label: "Tagged document" } ~~~ D4@{ shape: processes, label: "Multiple processes" }
+        E1@{ shape: cyl, label: "Database" } ~~~ E2@{ shape: lin-cyl, label: "Disk storage" } ~~~ E3@{ shape: notch-rect, label: "Card" } ~~~ E4@{ shape: brace, label: "Comment" }
+    end
 
-    CapegoWeb -->|domain events| BillingService
-    BillingService -->|events| Panda
-    Panda -->|API calls| AAA
+    Classic ~~~ Newer
 ```
-
-## Mapping configuration attributes
-
-- Event, e.g. `AnnualReportSubmitted`
-- Action, e.g. `add 1`
-  - `add <value>`
-  - `sub <value>`
-  - `log`
-- Templateid, e.g. `d187a483-1c62-4c66-a259-b43600dad5a7`
-- LimitPath, e.g. `AnnualReport/Submitted`
-
