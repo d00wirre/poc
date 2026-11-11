@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
     subgraph Classic["Classic shapes"]
         direction LR
@@ -13,3 +14,4 @@ flowchart TB
     end
 
     Classic ~~~ Newer
+```
